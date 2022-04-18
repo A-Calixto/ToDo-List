@@ -75,7 +75,11 @@ $(function(){
 				}
 			},
 			aoColumnDefs: [
-
+				{
+					aTargets: [0,3,4,5],
+					sClass: 'text-center',
+					sWidth: '1em'
+				},
 				{
 					aTargets: [0],
 					bSortable : false,
